@@ -14,20 +14,20 @@ This Django project allows users to upload CSV files and perform basic data anal
 
 - Python 3.x
 - Django 4.x or higher
-- [Additional dependencies] (List any additional libraries or dependencies if applicable)
+- pandas seaborn matplotlib
 
 ## Installation
 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
+   git clone <[repository_url](https://github.com/Dhi90/Django_app_pat.git)>
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd <project_directory>
+   cd <[project_directory](https://github.com/Dhi90/Django_app_pat/tree/main)>
    ```
 
 3. **Create a virtual environment (optional but recommended):**
