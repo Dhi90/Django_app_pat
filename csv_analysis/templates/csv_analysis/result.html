@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Analysis Results</title>
+</head>
+<body>
+    <h1>Analysis Results</h1>
+    <h2>Head</h2>
+    {{ head|safe }}
+    <h2>Describe</h2>
+    {{ describe|safe }}
+    <h2>Missing Values</h2>
+    {{ missing|safe }}
+    <h2>Histogram for Numerical Columns</h2>
+    <img src="data:image/png;base64,{{ plot }}" />
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the CSV Analysis App</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'upload_file' %}">Upload CSV File</a></li>
+                <!-- Add more navigation links if needed -->
+            </ul>
+        </nav>
+    </header>
+    <!-- Content of the page -->
+</body>
+</html>
